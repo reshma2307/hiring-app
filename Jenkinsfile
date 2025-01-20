@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Checkout K8S manifest SCM'){
             steps {
-              git branch: 'main', url: 'https://github.com/betawins/Hiring-app-argocd.git'
+              git branch: 'main', url: 'https://github.com/reshma2307/Hiring-app-argocd.git'
             }
         } 
         stage('Update K8S manifest & push to Repo'){
